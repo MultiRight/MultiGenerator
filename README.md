@@ -1,93 +1,73 @@
 # MultiGenerator
 
-A secure, terminal-based password generator written in Python.
+A simple tool that creates strong, random passwords for you.
+
+**Author:** [MultiRight](https://github.com/MultiRight)
 
 ---
 
-## Overview
+## What is this?
 
-MultiGenerator is a command-line utility that generates cryptographically secure passwords using Python's `secrets` module. It is designed to be lightweight, straightforward, and reliable for everyday use.
-
----
-
-## Features
-
-- Cryptographically secure password generation via the `secrets` module
-- Customizable password length between 16 and 32 characters
-- Color-coded terminal interface for improved readability
-- Cross-platform support (Linux, macOS, Windows)
-- Built-in help page accessible via `--help`
-- Clear and consistent error messages
+MultiGenerator is a small Python program that runs in your terminal and generates secure passwords. Just pick a length, and it gives you a password ready to use.
 
 ---
 
 ## Requirements
 
-- Python 3.6 or higher
-
-No third-party dependencies are required.
+- Python 3.6 or later — [Download here](https://www.python.org/downloads/)
+- Nothing else to install
 
 ---
 
-## Installation
+## How to run it
 
-Clone the repository:
-
+**1. Download the project**
 ```bash
-git clone https://github.com/MultiRight/MultiGenerator
+git clone https://github.com/MultiRight/MultiGenerator.git
 cd MultiGenerator
 ```
 
----
-
-## Usage
-
-Run the script using Python:
-
+**2. Run the script**
 ```bash
-python MultiGenerator.py
-```
-
-If that does not work, try using `python3` explicitly:
-
-```bash
-python3 MultiGenerator.py
-```
-
-When prompted, enter your desired password length (between 16 and 32 characters). The generator will produce a secure password composed of uppercase and lowercase letters, digits, and special characters.
-
-To access the help page, type `--help` when prompted at startup.
-
----
-
-## Error Reference
-
-| Code   | Description                                                  |
-|--------|--------------------------------------------------------------|
-| err101 | Invalid input — letters or symbols were entered instead of a number |
-| err102 | Invalid length — the number entered is less than 16 or greater than 32 |
-| err103 | Invalid action — the entered choice is not `r` or `q`       |
-
----
-
-## Character Set
-
-Generated passwords are drawn from the following character set:
-
-```
-abcdefghijklmnopqrstuvwxyz
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
-0123456789
-!@#$%^&*-_=+
+python multigenerator.py
 ```
 
 ---
 
-## License
+## How to use it
 
-Copyright &copy; 2026 MultiRight &lt;https://github.com/MultiRight&gt;
+1. Press **Enter** to start
+2. Type a number between **16 and 32** (your password length)
+3. Your password appears on screen — copy it and save it somewhere safe
+4. Press **r** to generate another one, or **q** to quit
 
-This project is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html).
+---
+
+## How strong are the passwords?
+
+What makes a password strong is two things: how long it is, and how unpredictable it is.
+
+MultiGenerator mixes uppercase letters, lowercase letters, numbers, and symbols all together, so the password does not look like any real word or pattern.
+
+The passwords are also picked completely at random every single time, so no two passwords will ever be the same.
+
+---
+
+## Something went wrong?
+
+The program will always tell you what went wrong and let you try again. Here is what each message means:
+
+| Message | What it means | What to do |
+|---|---|---|
+| err101 | You typed letters instead of a number | Type a number like `20` |
+| err102 | The number is too small or too big | Pick a number between 16 and 32 |
+| err103 | You typed something other than r or q | Type exactly `r` or `q` |
+
+---
+
+## Author
+
+Made by [MultiRight](https://github.com/MultiRight)
 
 ---
 
