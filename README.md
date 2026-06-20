@@ -45,13 +45,13 @@ cd MultiGenerator
 Run the script using Python:
 
 ```bash
-python multigenerator.py
+python MultiGenerator.py
 ```
 
 If that does not work, try using `python3` explicitly:
 
 ```bash
-python3 multigenerator.py
+python3 MultiGenerator.py
 ```
 
 When prompted, enter your desired password length (between 16 and 32 characters). The generator will produce a secure password composed of uppercase and lowercase letters, digits, and special characters.
