@@ -65,7 +65,7 @@ The program will always tell you what went wrong and let you try again. Here is 
 
 ## Author
 
-[MultiRight](https://github.com/MultiRight)
+MultiRight : https://github.com/MultiRight
 
 ---
 
