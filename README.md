@@ -43,8 +43,6 @@ python multigenerator.py
 
 ## How strong are the passwords?
 
-What makes a password strong is two things: how long it is, and how unpredictable it is.
-
 MultiGenerator mixes uppercase letters, lowercase letters, numbers, and symbols all together, so the password does not look like any real word or pattern.
 
 The passwords are also picked completely at random every single time, so no two passwords will ever be the same.
