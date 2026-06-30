@@ -1,4 +1,4 @@
-# MultiGenerator
+# multigenerator
 
 A simple tool that creates strong, random passwords for you.
 
@@ -6,7 +6,7 @@ A simple tool that creates strong, random passwords for you.
 
 ## What is this?
 
-MultiGenerator is a small Python program that runs in your terminal and generates secure passwords. Just pick a length, and it gives you a password ready to use.
+multigenerator is a small Python program that runs in your terminal and generates secure passwords. Just pick a length, and it gives you a password ready to use.
 
 
 ---
@@ -22,13 +22,13 @@ MultiGenerator is a small Python program that runs in your terminal and generate
 
 **1. Download the project**
 ```bash
-git clone https://github.com/MultiRight/MultiGenerator.git
-cd MultiGenerator
+git clone https://github.com/MultiRight/multigenerator.git
+cd multigenerator
 ```
 
 **2. Run the script**
 ```bash
-python MultiGenerator.py
+python multigenerator.py
 ```
 
 ---
@@ -44,7 +44,7 @@ python MultiGenerator.py
 
 ## How strong are the passwords?
 
-MultiGenerator mixes uppercase letters, lowercase letters, numbers, and symbols all together, so the password does not look like any real word or pattern.
+multigenerator mixes uppercase letters, lowercase letters, numbers, and symbols all together, so the password does not look like any real word or pattern.
 
 The passwords are also picked completely at random every single time, so no two passwords will ever be the same.
 
