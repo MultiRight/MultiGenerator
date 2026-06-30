@@ -30,9 +30,9 @@ try :
 
         running = True
 
-        print(f"{color_light_blue}====================Welcome to MultiGenerator===================={color_reset}")
+        print(f"{color_light_blue}====================Welcome to multigenerator===================={color_reset}")
         print()
-        user_q = input(f"{color_light_blue}Press enter to start use MultiGenerator : {color_reset}")
+        user_q = input(f"{color_light_blue}Press enter to start use multigenerator : {color_reset}")
         print()
 
          
@@ -62,7 +62,7 @@ try :
                     
                         if user_action == "q" :
                             print()
-                            print(f"{color_orange}Thank you for using MultiGenerator!{color_reset}")
+                            print(f"{color_orange}Thank you for using multigenerator!{color_reset}")
                             print(f"{color_orange}Author : https://github.com/MultiRight{color_reset}")
                             print()
                             print(f"{color_orange}goodbye{color_reset}")
@@ -91,7 +91,7 @@ except KeyboardInterrupt :
                 
     print("\n")
 
-    print(f"{color_orange}Thank you for using MultiGenerator!{color_reset}")
+    print(f"{color_orange}Thank you for using multigenerator!{color_reset}")
     print(f"{color_orange}Author : https://github.com/MultiRight{color_reset}")
     print()
     print(f"{color_orange}goodbye{color_reset}")
